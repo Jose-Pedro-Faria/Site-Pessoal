@@ -10,52 +10,39 @@
 </head>
 <body>
     <main>
-        <div class="tab">
-            <button class="tablinks" onclick="opentab(event, 'Resume')" id="defaultOpen">Resume</button>
-            <button class="tablinks" onclick="opentab(event, 'Professional Experience')">Professional Experience</button>
-            <button class="tablinks" onclick="opentab(event, 'Academic Experience')">Academic Experience</button>
-            <button class="tablinks" onclick="opentab(event, 'Knowledge Areas')">Knowledge Areas</button>
-            <button class="tablinks" onclick="opentab(event, 'Personal Projects')">Personal Projects</button>
-          </div>
-          
-          <!-- Tab content -->
-          <div id="Resume" class="tabcontent">
-            <h3>Resume</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem distinctio dolorum iure assumenda optio maiores sed fuga a minima. Voluptatibus dolorum cum enim nostrum placeat ipsum porro alias esse vel.</p>
-          </div>
-          
-          <div id="Professional Experience" class="tabcontent">
-            <h3>Professional Experience</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates amet, adipisci modi et nisi quis maxime laboriosam commodi maiores exercitationem labore quas similique natus aliquam pariatur, impedit veritatis eveniet ratione..</p>
-          </div>
-          
-          <div id="Academic Experience" class="tabcontent">
-            <h3>Academic Experience</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi officia nesciunt debitis quam molestias cupiditate sequi. Tempora aliquam, culpa, suscipit officia fuga natus a molestiae atque vitae autem velit delectus!</p>
-          </div>
+      <button class="tablink" onclick="openPage('Resume', this, '#0B3C4C')" id="defaultOpen">Resume</button>
+      <button class="tablink" onclick="openPage('Professional_Experience', this, '#0E5066')">Professional Experience</button>
+      <button class="tablink" onclick="openPage('Academic_Experience', this, '#13647F')">Academic Experience</button>
+      <button class="tablink" onclick="openPage('Knowledge_Areas', this, '#127899')">Knowledge Areas</button>
+      <button class="tablink" onclick="openPage('Personal_Projects', this, '#1A8BB2')">Personal Projects</button>
 
-          <div id="Knowledge Areas" class="tabcontent">
-            <h3>Knowledge Areas</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi officia nesciunt debitis quam molestias cupiditate sequi. Tempora aliquam, culpa, suscipit officia fuga natus a molestiae atque vitae autem velit delectus!</p>
-          </div>
+      <div id="Resume" class="tabcontent">
+        <div id="tabtext">
+          <h3>Home</h3>
+          <p>Home is where the heart is..</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus distinctio vel, est illo blanditiis dolorem recusandae? Iure aspernatur ipsam ratione possimus natus minima quasi aut ea, expedita saepe deleniti recusandae.</p>
+        </div>
+      </div>
 
-          <div id="Personal Projects" class="tabcontent">
-            <h3>Personal Projects</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi officia nesciunt debitis quam molestias cupiditate sequi. Tempora aliquam, culpa, suscipit officia fuga natus a molestiae atque vitae autem velit delectus!</p>
-          </div>
+      <div id="Professional_Experience" class="tabcontent">
+        <h3>News</h3>
+        <p>Some news this fine day!</p>
+      </div>
 
-        <header>
-            <h1>José Faria</h1>
-        </header>
-        <article>
-            <h2>Artigo 001</h2>
-            <p>Texto Artigo 001</p>
-        </article>
-        <article>
-            <h2>Artigo 002</h2>
-            <p>Testo Artigo 002</p>
-        </article>
+      <div id="Academic_Experience" class="tabcontent">
+        <h3>Contact</h3>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
+      </div>
 
+      <div id="Knowledge_Areas" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+      </div>
+
+      <div id="Personal_Projects" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+      </div>
     </main>
 </body>
 </html>
