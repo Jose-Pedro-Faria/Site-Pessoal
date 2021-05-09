@@ -15,23 +15,33 @@ main {
     box-shadow: 3px 3px 5px black;
 }
 
-.vertical-menu {
-    width: 200px; /* Set a width if you like */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
 }
   
-.vertical-menu a {
-    background-color: #eee; /* Grey background color */
-    color: black; /* Black text color */
-    display: block; /* Make the links appear below each other */
-    padding: 12px; /* Add some padding */
-    text-decoration: none; /* Remove underline from links */
+.tab button:hover {
+    background-color: #ddd;
 }
   
-.vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
+.tab button.active {
+    background-color: #ccc;
 }
   
-.vertical-menu a.active {
-    background-color: #04AA6D; /* Add a green color to the "active/current" link */
-    color: white;
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
