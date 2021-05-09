@@ -48,13 +48,13 @@ body, html {
   }
 
   .tabtext {
-    width: 60%;
+    width: 69%;
     padding: 15px;
     float: left;
   }
 
   .tabimg {
-    width: 20%;
+    width: 25%;
     padding: 15px;
     float: right;
   }
@@ -70,6 +70,13 @@ body, html {
     padding: 20px;
     text-align: center;
     color:#22272e ;
+  }
+
+  #foto_perfil{
+      width: 75%;
+      border-radius: 100%;
+      box-shadow: 3px 3px 5px black;
+      float: right;
   }
   
   #Resume {background-color: #0B3C4C;}
