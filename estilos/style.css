@@ -61,10 +61,23 @@ body, html {
     float: right;
   }
 
+  .tabtextprof {
+    width: 45%;
+    padding: 15px;
+    float: left;
+  }
+
+  .tabimgprof {
+    width: 50%;
+    padding: 15px;
+    float: right;
+  }
+
   .row:after {
     content: "";
     display: table;
     clear: both;
+    width: 100%;
   }
 
   .header {
@@ -80,6 +93,11 @@ body, html {
       box-shadow: 3px 3px 5px black;
       float: right;
   }
+
+  #professional_exp {
+    width: 75%;
+    float: right;
+}
   
   #Resume {background-color: #0B3C4C;}
   #Professional_Experience {background-color: #0E5066;}
