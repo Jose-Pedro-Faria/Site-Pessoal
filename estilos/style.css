@@ -124,6 +124,10 @@ p{
     width: 75%;
     float: right;
 }
+
+#grafico_conhecimento{
+  width: 100%;
+}
   
   #Resume {background-color: #0B3C4C;}
   #Professional_Experience {background-color: #0E5066;}
