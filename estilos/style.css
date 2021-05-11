@@ -166,9 +166,15 @@ li {
   margin-right: auto;
   display: block;
 }
-  
+/*
   #Resume {background-color: #0B3C4C;}
   #Professional_Experience {background-color: #0E5066;}
   #Academic_Experience {background-color: #13647F;}
   #Knowledge_Areas {background-color: #127899;}
   #Personal_Projects {background-color: #1A8BB2;}
+*/
+#Resume {background-color: #0B3C4C;}
+#Professional_Experience {background-color: #0B3C4C;}
+#Academic_Experience {background-color: #0B3C4C;}
+#Knowledge_Areas {background-color: #0B3C4C;}
+#Personal_Projects {background-color: #0B3C4C;}
