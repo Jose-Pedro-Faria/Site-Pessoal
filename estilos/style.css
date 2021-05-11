@@ -87,6 +87,26 @@ body, html {
     color:#22272e ;
   }
 
+  .h1header {
+    color: #22272e;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Rock Salt, Arial, Helvetica, sans-serif;
+  }
+
+  .pheader {
+    color: #22272e;
+  }
+
+  .titulopag {
+    font-weight: bold;
+  }
+
+#snailchip_logo {
+    width: 75%;
+    
+}
+
   #foto_perfil{
       width: 75%;
       border-radius: 100%;
