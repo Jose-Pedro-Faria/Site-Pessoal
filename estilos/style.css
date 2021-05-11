@@ -137,6 +137,10 @@ p{
   text-align: justify;
 }
 
+li {
+  font-weight: bold;
+}
+
 #foto_perfil{
     width: 80%;
     border-radius: 100%;
@@ -157,9 +161,10 @@ p{
 }
 
 #grafico_conhecimento{
-  width: 75%;
+  width: 79%;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
   
   #Resume {background-color: #0B3C4C;}
