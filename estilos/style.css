@@ -62,14 +62,38 @@ body, html {
   }
 
   .tabtextprof {
-    width: 45%;
+    width: 60%;
     padding: 15px;
     float: left;
   }
 
   .tabimgprof {
-    width: 50%;
+    width: 25%;
     padding: 15px;
+    float: right;
+  }
+
+  .tabtextknowloedge {
+    padding: 15px;
+    width: 60%;
+    float: left;
+  }
+
+  .tabimgknowledge {
+    padding: 15px;
+    width: 25%;
+    float: right;
+  }
+
+  .tabtextacademic {
+    padding: 15px;
+    width: 60%;
+    float: left;
+  }
+
+  .tabimgacademic {
+    padding: 15px;
+    width: 25%;
     float: right;
   }
 
@@ -113,20 +137,29 @@ p{
   text-align: justify;
 }
 
-  #foto_perfil{
-      width: 75%;
-      border-radius: 100%;
-      box-shadow: 3px 3px 5px black;
-      float: right;
-  }
+#foto_perfil{
+    width: 80%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 5px black;
+    padding: 1px 1px 1px 1px;
+}
 
-  #professional_exp {
-    width: 75%;
-    float: right;
+#knowledge_areas {
+    width: 80%;
+}
+
+#professional_exp {
+    width: 80%;
+}
+
+#academic_exp {
+    width: 80%;
 }
 
 #grafico_conhecimento{
-  width: 100%;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
   
   #Resume {background-color: #0B3C4C;}
