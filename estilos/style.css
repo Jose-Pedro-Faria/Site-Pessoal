@@ -141,6 +141,10 @@ li {
   font-weight: bold;
 }
 
+.academic {
+  font-weight: normal;
+}
+
 #foto_perfil{
     width: 80%;
     border-radius: 100%;
