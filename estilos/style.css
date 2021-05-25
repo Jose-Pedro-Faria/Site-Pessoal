@@ -58,6 +58,18 @@ a {
     float: left;
   }
 
+  .tabtext ul li{
+    font-weight: normal;
+  }
+
+  .tabtext ul li a{
+    font-weight: bold;
+  }
+
+  .tabtext a:hover{
+    color: rgb(158, 157, 157);
+  }
+
   .tabimg {
     width: 25%;
     padding: 15px;
@@ -143,6 +155,7 @@ p{
 li {
   font-weight: bold;
 }
+
 
 .academic {
   font-weight: normal;
